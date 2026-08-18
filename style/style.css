@@ -1,6 +1,12 @@
 /* selector (etiqueta, class, id) {
     propiedad; valor;
 } */
+
+/* Reset global */
+* {
+    margin: 15;
+    padding: 0;
+}
  /* Font Family: Notable Static*/
  @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
  /* Font Family: "Notable", sans-serif; */
@@ -24,6 +30,8 @@ font-size: 1rem;
 
 /* Header */
 
+
+
 h1 {
     color: #ffffff; /* Centro del tubo de neon en blanco puro */
   text-shadow: 
@@ -33,20 +41,25 @@ h1 {
     0 0 40px #ff0000; /* Tercera capa para el reflejo ambiental rojo */
     font-family: "Racing Sans One", sans-serif;
     font-size: 5rem;
+    display: flex;
+    padding: 0px 400px 0px 400px;
 }
 h2 {
     color: #FAE588;
     font-family: "Notable", sans-serif;
     font-size: 1.5rem;
+    display: flex;
 }
 h3 {
     color: #FAE588;
     font-family: "Notable", sans-serif;
     font-size: 1.5rem;
+    display: flex;
 }
 p {
     color: #FAE588;
     font-size: 1.3rem;
+    display: flex;
 }
 .epigrafes {
     color: #FAE588;
@@ -55,13 +68,35 @@ header nav ul li {
     list-style: none;
     color: #F9DC5C; 
 }
+
+header nav ul {
+    display: flex;
+    padding: 0px 120px 0px 120px;
+    margin: 50px;
+    gap: 300px;
+}
+
 .nav-link {
     text-decoration: none;
 }
 
 /* Footer */
 
+footer {
+    display: flex;
+    gap: 30px;
+}
+
+.rs {
+    display: flex;
+    padding: 0px 0px 0px 800px;
+}
+
 .rrss-img {
     height: 5vh;
     width: auto;
+    display: flex;
+    margin: 15px;
+    gap: 50px;
 }
+
